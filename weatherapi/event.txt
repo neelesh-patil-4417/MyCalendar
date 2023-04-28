@@ -1,0 +1,18 @@
+{
+    'kind': 'calendar#event', 
+    'etag': '"3364867087424000"', 
+    'id': '2jt0lju6sq603dg6p1eklq5dfq', 
+    'status': 'confirmed',
+    'htmlLink': 'https://www.google.com/calendar/event?eid=Mmp0MGxqdTZzcTYwM2RnNnAxZWtscTVkZnEgbnA2MTYwMjg3QG0',
+    'created': '2023-04-25T14:39:03.000Z',
+    'updated': '2023-04-25T14:39:03.712Z', 
+    'summary': 'Aman Birthday', 
+    'creator': {'email': 'np6160287@gmail.com', 'self': True}, 
+    'organizer': {'email': 'np6160287@gmail.com', 'self': True}, 
+    'start': {'dateTime': '2023-04-25T20:30:00+05:30', 'timeZone': 'Asia/Kolkata'},
+    'end': {'dateTime': '2023-04-25T21:30:00+05:30', 'timeZone': 'Asia/Kolkata'},
+    'iCalUID': '2jt0lju6sq603dg6p1eklq5dfq@google.com', 
+    'sequence': 0,
+    'reminders': {'useDefault': True}, 
+    'eventType': 'default'
+}
