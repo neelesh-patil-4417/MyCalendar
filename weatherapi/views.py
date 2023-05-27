@@ -27,7 +27,7 @@ def authinit(request):
         _type_: A url to which user can sign in and google authorization server ensures to provide the access token or not to the api
     """
     
-    flow = Flow.from_client_secrets_file('/home/nilesh-linux/Desktop/DjangoProjects/oauthpractice/weather/weatherapi/client_secret.json',scopes=scopes1)
+    flow = Flow.from_client_secrets_file('/home/nilesh/Desktop/myprojects/MyCalendar/client_secret.json',scopes=scopes1)
     # Flow is class that is use to create a flow of authorization, authentication, redirecting after authorization, etc.
     # Returns:
     #     _type_: flow is object that contains contains all details of flow of particular user that is created by using the "from_clients_secrets_file" method inside the Flow class
@@ -50,7 +50,7 @@ def authinit(request):
 def redirecttheauthorizedpage(request):
     state = request.GET.get('state')
     # We maintain security by ensuring the  response we get from authorization server corresponds to same request that was originally sent. 
-    flow = Flow.from_client_secrets_file('/home/nilesh-linux/Desktop/DjangoProjects/oauthpractice/weather/weatherapi/client_secret.json',scopes=scopes1,state=state)
+    flow = Flow.from_client_secrets_file('/home/nilesh/Desktop/myprojects/MyCalendar/client_secret.json',scopes=scopes1,state=state)
 
     flow.redirect_uri = 'http://127.0.0.1:8000/rest/v1/calendar/redirect/'
 
